@@ -1,0 +1,244 @@
+.integration{
+    background-image: url(../images/nextpages/curve-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    margin-bottom: 50px;
+}
+.integration-title {
+    text-align: center;
+    padding: 100px 0 120px;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+.integration-title h1{
+    font-size: 72px;
+    color: #fff;
+    font-weight: 600;
+}
+.inner-app-card {
+    padding: 50px 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 14.4399995803833px 20px 0px #7A7B7E33;
+    margin-bottom: 30px;
+}
+.inner-app-card h2{
+    font-size: 40px;
+    line-height: 60px;
+    color: #1D1E25;
+    font-weight: 600;
+    margin: 40px 0;
+}
+.inner-app-card p{
+    font-size: 16px;
+    color: #808D9E;
+    font-weight: 500;
+    margin: 0;
+}
+.contact-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.contact-form{
+    background-color: #fff;
+    padding:70px;
+    border-radius: 10px;
+    box-shadow: 0px 13.333333969116211px 46.66666793823242px 0px #00000008;
+    margin-bottom: 175px;
+}
+.contact-title {
+    max-width: 1000px;
+    padding: 70px 0px 0px 0px;
+}
+.contact-title p {
+    font-size: 26px;
+    line-height: 48px;
+    color: #fff;
+    padding: 40px 0px 60px 0px;
+}
+.contact-form .input-fields{
+    margin-bottom: 20px;
+}
+.contact-form .input-fields label{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact-form .input-fields input{
+    border: 1.33px solid #C3CAD9;
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: #183B56;
+    font-size: 18px;
+}
+.contact-form .input-fields select{
+    border: 1.33px solid #C3CAD9;
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: #183B56;
+    font-size: 18px;
+}
+.contact-form .input-fields textarea{
+    border: 1.33px solid #C3CAD9;
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: #183B56;
+    font-size: 18px;
+    min-height: 180px;
+    padding: 20px 0 0 20px;
+}
+.contact-form .input-fields select:focus{
+    outline: none;
+}
+.contact-form .input-fields input:focus{
+    outline: none;
+}
+.contact-form .input-fields textarea:focus{
+    outline: none;
+}
+.contact-form p{
+    font-size: 20px;
+    color: #808D9E;
+    line-height: 37px;
+    margin-bottom: 40px;
+}
+.contact-form button{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #2E4CA1;
+    width: 205px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.contact-info{
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-bottom: 90px;
+}
+.contact-info .info-card{
+    text-align: center;
+}
+.contact-info .info-card .info-img{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    background-color: #eef4fc;
+    border-radius: 21px;
+    margin: 0 auto;
+}
+.contact-info .info-card .info-img img{
+    width: 42px;
+}
+.contact-info .info-card .info-img span{
+    border: 1px dashed #808D9E;
+    padding: 13px 5px;
+    border-width: 2px;
+}
+.contact-info .info-card h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 30px 0px 20px 0px;
+    color: #000;
+}
+.contact-info .info-card p{
+    font-size: 18px;
+    color: #808D9E;
+    font-weight: 400;
+    line-height: 37px;
+    margin-bottom: 35px;
+}
+.contact-info .info-card a{
+    font-size: 21px;
+    color: #1565D8;
+    font-weight: 700;
+    padding: 0 20px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: inline-block;
+    transition: 0.45s;
+}
+.contact-info .info-card a i{
+    padding-left: 10px;
+    visibility: hidden;
+    transition: none;
+}
+.contact-info .info-card a:hover {
+    border-color: #1565D8;
+}
+.contact-info .info-card a:hover i{
+    font-size: 21px;
+    visibility: visible;
+}
+@media screen and (max-width:1200px) {
+    .integration {
+        background-size: cover;
+    }
+    .integration-title h1 {
+        font-size: 55px;
+    }
+    .contact-info .info-card {
+        background-color: #fff;
+        padding: 20px 5px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }  
+    .contact-info .info-card p {
+        min-height: 74px;
+    }  
+}
+@media screen and (max-width:767px) {
+    .app-img img {
+        width: 100%;
+    }
+    .integration-title {
+        padding: 0px 15px 65px;
+    }
+    .integration-title h1 {
+        font-size: 38px;
+    }
+    .contact-title p {
+        font-size: 20px;
+        line-height: 36px;
+        padding: 40px 0px 0px 0px;
+    }
+    .integration {
+        background-size: 390%;
+    }
+    .contact-form {
+        padding: 25px;
+        margin-bottom: 75px;
+    }
+    .contact-info .info-card a {
+        font-size: 17px;
+    }
+    .contact-info .info-card p {
+        min-height: auto;
+        margin-bottom: 16px;
+    }
+    .contact-info {
+        margin-bottom: 0px;
+    }
+    .contact-info .info-card {
+        padding: 0;
+    }
+}

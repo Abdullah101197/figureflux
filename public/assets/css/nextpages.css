@@ -1,0 +1,694 @@
+.main-next-wrapper{
+    background-image: url(../images/settings-bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-next-wrapper .banner-content h2{
+    color: #2F2F2F;
+} 
+.main-next-wrapper .banner-content p{
+    color: #2F2F2F;
+} 
+.main-next-wrapper .banner-content {
+    max-width: 600px;
+}
+.main-next-wrapper .banner-image img{
+    width: 100%;
+}
+.main-next-wrapper .banner-wrapper {
+    padding: 100px 0 240px 0px;
+}
+.secondary-design .feature-wrapper{
+  background: #F5F5F5;
+  padding: 70px 0px;
+}
+.secondary-design .title-section h3{
+    color: #1D1E25;
+}
+.secondary-design .feature-details .process-content{
+    max-width: 620px;
+}
+.secondary-design .process-content p{
+    color: #797979;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-top: 30px;
+}
+.secondary-design .feature-inner .nav {
+    box-shadow: 0px 6px 24px 0px #71717163;
+}
+.process-wrapper.next-page-process {
+    background: transparent;
+    margin: 0;
+    border-radius: 0;
+    padding-bottom: 0;
+}
+.next-page-process .process-content h2{
+    color: #1D1E25;
+}
+.next-page-process .process-content p{
+    color: #808D9E;
+}
+.next-page-process .inner-process .process-image:after{
+    background-image: url(../images/nextpages/payment-elips.png);
+    right: -8%;
+    background-position: right;
+    background-size: contain;
+    top: -55px;
+}
+.next-page-process .inner-process .process-content {
+    max-width:100%;
+    padding-left: 120px;
+}
+.next-page-process .inner-process .row:nth-of-type(even) .process-content {
+    max-width: 80%;
+    padding-left: 30px;
+}
+.next-page-process .inner-process .row:nth-of-type(even) .process-image:after{
+    background-image: url(../images/nextpages/structure-elips.png);
+    right: 0;
+    left: -8%;
+    background-position: left;
+    background-size: contain;
+}
+.header-site .row {
+    align-items: center;
+}
+/* Traning page style */
+.bg-none-wrapper .main-menu ul li a {
+    color: #363636;
+}
+.bg-none-wrapper .mobile-login-button ul li a, .bg-none-wrapper .login-button ul li a {
+    color: #363636;
+    border-color: #363636;
+}
+.bg-none-wrapper .login-button ul li a:hover {
+background: linear-gradient(180deg, #010235 0%, #0D0E45 100%),
+linear-gradient(0deg, #3050A8, #3050A8);
+color: #fff;
+}
+.main-tainging h1{
+    font-size: 72px;
+    color: #2F2F2F;
+    line-height: 2;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.main-tainging h2{
+    font-size: 40px;
+    color: #334A5E;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.main-tainging h3{
+    font-size: 32px;
+    color: #334A5E;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.main-tainging h4{
+    font-size: 28px;
+    color: #142533;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.main-tainging p{
+    font-size: 28px;
+    color: #334A5E;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.main-tainging span{
+    font-size: 28px;
+    color: #334A5E;
+}
+.main-tainging ul{
+    margin-left: 20px;
+}
+.main-tainging ul li{
+    list-style-type: disc;
+    font-size: 28px;
+    color: #334A5E;
+}
+.main-tainging .traning-contact{
+border: 1px solid #E5EAF4;
+padding: 70px 70px 10px 70px;
+margin-bottom: 75px;
+}
+.main-tainging .testimonial {
+    padding: 40px 0px 40px;
+}
+.main-tainging .customer-comment p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 70px 0px;
+}
+.main-tainging .traning-contact button{
+    margin-bottom: 40px;
+    background-color: #2E4CA1;
+    padding: 0 60px;
+    width: auto;
+}
+.main-tainging .traning-contact p{
+    color: #334A5E;
+}
+
+.main-tainging a{
+    color: #334A5E;
+}
+.faq-main.training-faq{
+    background-color: #1C1D41;
+}
+.training-faq .accordian-item{
+background-color: #2b2d4e;
+}
+/* Explore page css */
+.explore-wrapper .inner-feature-card h4{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.explore-wrapper .inner-feature-card a{
+    font-size: 16px;
+    color: #000;
+    background-color: #00D2D2;
+    padding: 12px 50px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.explore-wrapper .inner-feature-card p{
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+}
+.explore-wrapper  .inner-feature-card:hover h4{
+color: #fff;
+}
+.explore-wrapper .inner-feature-card:hover p{
+    color: #fff;
+}
+.explore-wrapper .p-lr-20 {
+    padding: 0 25px;
+    margin-bottom: 25px;
+}
+.explore-wrapper h2{
+    font-size: 72px;
+    color: #2F2F2F;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.explore-wrapper .border-solid {
+    border-bottom: 10px solid transparent;
+    border-radius: 30px;
+}
+.explore-wrapper .border-solid:hover {
+    border-bottom: 10px solid #00D2D2;
+}
+.explore-wrapper .inner-feature-card {
+    border-radius: 22px;
+}
+.explore-wrapper .inner-feature-card:hover {
+    border-bottom:none;
+}
+.explore-wrapper .mb-20{
+    margin-bottom: 10px;
+}
+.our-team .inner-feature-card {
+    padding: 40px 20px 40px;
+}
+.mission-wrapper{
+    padding: 30px 0 50px;
+}
+.mission-wrapper h1{
+    font-size: 72px;
+    color: #2F2F2F;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+.inner-mission-wraper{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.inner-mission-wraper h2{
+    font-size: 40px;
+    color: #334A5E;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.inner-mission-wraper p{
+    font-size: 27px;
+    color: #334A5E;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.af-program-wrapper{
+    padding: 60px 0px 80px;
+}
+.af-program-wrapper .about-title{
+max-width: 100%;
+}
+.af-program-wrapper .program-bg {
+    background-color: #F3F3F3;
+    padding: 100px 100px 0px 100px;
+    max-width: 1010px;
+    margin: 0 auto;
+    text-align: center;
+}
+.commsion-section{
+    background: linear-gradient(180deg, #010235 0%, #0D0E45 100%),
+    linear-gradient(0deg, #0E1746, #0E1746),
+    linear-gradient(0deg, #1D1E25, #1D1E25);
+    border-radius: 20px;
+    padding: 80px 20px;
+    text-align: center;
+}
+.commsion-section h2{
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.commsion-section p{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.earn-commission-wrapper{
+    padding: 70px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.earn-commission-wrapper h2{
+    font-size: 64px;
+    color: #2C3C4D;
+    text-align: center;
+}
+.commsion-inner{
+    padding:50px 30px 0;
+}
+.commsion-inner .commission-card{
+    padding: 20px 50px 40px;
+    border-bottom: 10px solid #00D2D2;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 22px;
+}
+.commsion-inner .commission-card h3{
+    font-size: 20px;
+    font-weight: 500;
+    color:#333333;
+    margin-bottom: 15px;
+}
+.commsion-inner .commission-card p{
+    font-size: 16px;
+    color: #5A5A5A;
+    margin: 0;
+    line-height: 29px;
+    min-height: 116px;
+}
+.guidance-wrapper{
+    padding: 40px 0px 100px;
+}
+.guidance-wrapper h2{
+    font-size: 64px;
+    color: #2C3C4D;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.guidance-wrapper .basic-plan-main .basic-plan h3{
+    font-size: 32px;
+    color: #111111;
+    margin-bottom: 40px;
+}
+.guidance-wrapper .basic-plan-main .basic-plan .plan-list{
+    width: 100%;
+}
+.guidance-wrapper .basic-plan-main .basic-plan .plan-list ul li span{
+    color: #fff;
+}
+.guidance-wrapper .basic-plan-main:hover .basic-plan .plan-list ul li span{
+    color: #000;
+}
+.guidance-wrapper .basic-plan-main:hover .basic-plan h3{
+    color: #fff;
+}
+.team-calender-wrapper {
+    padding:0 15px 70px;
+    max-width: 1270px;
+    margin: 0 auto;
+    text-align: center;
+}
+.team-calender-wrapper h2{
+    font-size: 48px;
+    color: #1D1E25;
+    margin-bottom: 40px;
+}
+.team-calender-wrapper.explore-wrapper .inner-feature-card h4{
+    margin-bottom: 5px;
+    min-height: 48px;
+}
+.team-calender-wrapper.explore-wrapper .inner-feature-card p {
+    font-size: 16px;
+    min-height: 81px;
+}
+.process-wrapper .team-calender .row:nth-of-type(odd){
+    padding: 0;
+}
+.short-note{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 15px;
+    text-align: center;
+}
+.short-note p{
+    font-size: 20px;
+    color: #183B56;
+}
+.sale-img img{
+    width: 100%;
+}
+.sale-wrapper{
+padding-bottom: 80px;
+}
+.sale-content h2{
+    font-size:64px;
+    color: #1D1E25;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.sale-content p{
+    font-size: 16px;
+    color: #808D9E;
+    font-weight: 500;
+}
+@media screen and (max-width:1500px) {
+    .main-tainging p {
+        font-size: 25px;
+        line-height: 1.3;
+    }
+    .main-tainging span{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .main-next-wrapper .logo img {
+        width: 200px;
+    }
+    .main-next-wrapper .banner-content h2{
+        font-size: 50px;
+        line-height: 65px;
+        max-width: 425px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .main-next-wrapper .logo img {
+        width: 175px;
+    }
+    .main-next-wrapper .banner-content h2 {
+        font-size: 44px;
+        line-height: 65px;
+        max-width: 360px;
+    }
+    .secondary-design  .feature-inner .nav {
+        width: 72%;
+    }
+    .secondary-design .process-content p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .next-page-process .process-content h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:992px) {
+    .secondary-design .main-next-wrapper {
+        background: transparent;
+    }
+    .main-next-wrapper .banner-wrapper {
+        padding: 50px 0 65px 0px;
+    }
+    .secondary-design .main-next-wrapper .mobile-login-button ul li a {
+        color: #000;
+        border: 1px solid #000;
+    }
+    .secondary-design .main-next-wrappe .mobile-login-button ul li .submenu li a {
+        margin-top: 10px;
+    }
+    .main-next-wrapper .banner-content {
+        padding-bottom: 50px;
+    }
+    .next-page-process .inner-process .process-image:after{
+        left: 0;
+        right: 0;
+        background-position: center;
+    }
+    .next-page-process .inner-process .row:nth-of-type(even) .process-image:after {
+        right: 0;
+        left: 0;
+        background-position: center;
+    }
+
+    .next-page-process .inner-process .row:nth-of-type(even) {
+        padding-top: 80px;
+    }
+    .next-page-process .inner-process .process-content {
+        margin-top: 20px;
+    }
+    .next-page-process .inner-process .process-content {
+        max-width: 80%;
+        padding-left: 30px;
+    }
+    .main-tainging h1 {
+        font-size: 60px;
+    }
+    .main-tainging p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .main-tainging span{
+        font-size: 20px;
+    }
+    .main-tainging h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .main-tainging h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .main-tainging h4 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .main-tainging ul li {
+        font-size: 20px;
+    }
+    .main-tainging .traning-contact {
+        padding: 50px 50px 10px 50px;
+        margin-bottom: 50px;
+    }
+    .faq-main.training-faq{
+        padding: 50px 30px;
+    }
+    .mobile-login-button ul li .submenu {
+        background: #fff;
+    }
+    .explore-wrapper h2 {
+        font-size: 50px;
+    }
+    .mission-wrapper h1 {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    .inner-mission-wraper p {
+        font-size: 25px;
+    }
+    .about-title h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .commsion-section h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .commsion-section p {
+        font-size: 16px;
+    }
+    .earn-commission-wrapper h2 {
+        font-size: 50px;
+    }
+    .commsion-inner {
+        padding: 35px 30px 0;
+    }
+    .commsion-inner .commission-card {
+        margin-bottom: 30px;
+    }
+    .earn-commission-wrapper {
+        padding: 70px 0px 0
+    }
+    .sale-content h2 {
+        font-size: 35px;
+    }
+    .sale-content {
+        padding-top: 30px;
+    }
+.sale-wrapper {
+    padding-bottom: 50px;
+}
+}
+@media screen and (max-width: 767px){
+    .next-page-process .process-content h2 {
+    font-size: 34px;
+    line-height: 40px;
+}
+.next-page-process .inner-process .process-image:after {
+    top: -35px;
+}
+.next-page-process .inner-process .row:nth-of-type(even) .process-content {
+    padding-left: 12px;
+    max-width: 100%;
+}
+.next-page-process .inner-process .process-content {
+    max-width: 100%;
+    padding-left: 12px;
+}
+.next-page-process .secondary-design .process-content p {
+    font-size: 22px;
+    line-height: 38px;
+    padding-top: 5px;
+}
+.main-tainging h1 {
+    font-size: 25px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.main-tainging p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.main-tainging span{
+    font-size: 16px;
+}
+.main-tainging h2 {
+    font-size: 20px;
+}
+.main-tainging h3 {
+    font-size: 20px;
+}
+.main-tainging h4 {
+    font-size: 14px;
+}
+.main-tainging ul {
+    margin-left: 0px;
+}
+.main-tainging ul li {
+    font-size: 16px;
+}
+.main-tainging .traning-contact {
+    padding: 20px;
+}
+.main-tainging .customer-comment p{
+    margin-bottom: 30px;
+}
+.faq-main.training-faq h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.faq-main.training-faq .accordian-link {
+    font-size: 16px;
+}
+.faq-main.training-faq .answer p {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 0 1rem 0;
+    margin-top: 0;
+}
+.explore-wrapper h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.our-team .inner-feature-card {
+    padding: 20px;
+}
+.explore-wrapper .inner-feature-card h4 {
+    margin-bottom: 10px;
+}
+.mission-wrapper h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.inner-mission-wraper h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.inner-mission-wraper p {
+    font-size: 18px;
+}
+.mission-wrapper {
+    padding: 30px 0 0px;
+}
+.about-title h1 {
+    font-size: 25px;
+    line-height: 35px;
+}
+.commsion-section{
+    padding: 50px 20px;
+}
+.commsion-section h2 {
+    font-size: 28px;
+}
+.commsion-section p {
+    margin: 0;
+}
+.earn-commission-wrapper {
+    padding: 40px 0px 0;
+}
+.earn-commission-wrapper h2 {
+    font-size: 25px;
+}
+.commsion-inner {
+    padding: 20px 20px 0;
+}
+.guidance-wrapper h2 {
+    font-size: 40px;
+}
+.guidance-wrapper {
+    padding: 20px 0px 50px;
+}
+.guidance-wrapper .basic-plan-main .basic-plan .plan-list ul li {
+    line-height: 30px;
+}
+.guidance-wrapper .basic-plan-main .basic-plan {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.guidance-wrapper .basic-plan-main .basic-plan h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.guidance-wrapper .basic-plan-main {
+    padding: 30px 30px;
+}
+.af-program-wrapper {
+    padding: 10px 0px 50px;
+}
+.main-next-wrapper .banner-content h2 {
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.main-next-wrapper .banner-wrapper {
+    padding: 0px;
+}
+}

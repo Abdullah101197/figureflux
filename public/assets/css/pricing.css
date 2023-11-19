@@ -1,0 +1,275 @@
+.transarent-header .main-menu ul li a{
+    color: #363636;
+}
+.transarent-header .mobile-login-button ul li a, 
+.transarent-header .login-button ul li a{
+    border: 1px solid #363636;
+    color: #363636;
+}
+.transarent-header .mobile-login-button ul li a:hover, 
+.transarent-header .login-button ul li a:hover{
+    background: linear-gradient(180deg, #010235 0%, #0D0E45 100%),
+linear-gradient(0deg, #3050A8, #3050A8);
+color: #fff;
+}
+.pricing-plan-main{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 34%, rgba(249,251,254,1) 34%);
+}
+.pricing-title{
+    text-align: center;
+    max-width: 975px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.pricing-title h1{
+    font-size: 72px;
+    line-height: 90px;
+    color: #2F2F2F;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+.pricing-title p{
+    font-size: 24px;
+    line-height: 42px;
+    color: #5A7184;
+    margin: 0;
+}
+.pricing-plan-card{
+    padding: 60px;
+    box-shadow: 0px 13.333333969116211px 46.66666793823242px 0px #00000008;
+    border-radius: 10px;
+    position: relative;
+    background: #fff;
+}
+.pricing-plan-card .recmend {
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(180deg, #010235 0%, #0D0E45 100%), linear-gradient(0deg, #36B37E, #36B37E), linear-gradient(252.02deg, #4285F4 -44.08%, #2C4699 98.47%);
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.pricing-plan-card h2{
+    font-size: 50px;
+    color: #183B56;
+    font-weight: 700;
+    line-height: 80px;
+}
+.pricing-plan-card h2 span{
+    font-size: 18px;
+    color: #5A7184;
+    font-family: 'Open Sans', sans-serif;
+}
+.pricing-plan-card h3{
+    font-size: 32px;
+    color: #183B56;
+    line-height: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.pricing-plan-card p{
+    font-size: 21px;
+    color: #5A7184;
+    margin: 0;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 70px;
+}
+.pricing-plan-card ul {
+    margin: 40px 0 0 0;
+    padding: 30px 0 0;
+    border-top: 1px solid #E5EAF4;
+}
+.pricing-plan-card ul li {
+    font-size: 21px;
+    color: #183B56;
+    line-height: 55px;
+    font-family: 'Open Sans', sans-serif;
+}
+.pricing-plan-card ul li span {
+    width: 32px;
+    height: 32px;
+    line-height: 34px;
+    display: inline-block;
+    background: #e6e1f4;
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 5px;
+    color: #3765C6;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.pricing-plan-card a{
+    border: 1px solid #B3BAC5;
+    border-radius: 10px;
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    position: relative;
+    display: flex;
+    padding: 0 20px;
+    font-size: 21px;
+    color: #5A7184;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.45s;
+}
+.pricing-plan-card a:hover{
+    background-color: #00D2D2;
+    color: #06073C;
+}
+.primum-pln-st-decs{
+    max-width: 730px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.primum-pln-st-decs p{
+    font-size: 24px;
+    color: #183B56;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 42px;
+}
+.our-main-feature{
+    padding-bottom: 50px;
+}
+.our-main-feature h2{
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 500;
+    color: #183B56;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.our-feature-card{
+    border: 1.33px solid #E5EAF4;
+    box-shadow: 0px 20px 46.66666793823242px 0px #0000000D;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 80px 80px 30px;
+    margin-bottom: 100px;
+    position: relative;
+    text-align: center;
+}
+.our-feature-card .feature-icon{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    background-color: #fff;
+    border-radius: 50px;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border: 1.33px solid #E5EAF4;
+}
+.our-feature-card .feature-icon span{
+    border: 1px dashed #808D9E;
+    padding: 13px 5px;
+    border-width: 2px;
+}
+.our-feature-card .feature-icon span img{
+    width: 42px;
+}
+.our-feature-card h3{
+    font-size: 24px;
+    line-height: 42px;
+    color: #183B56;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.our-feature-card p{
+    font-size: 18px;
+    color: #5A7184;
+    line-height: 36px;
+}
+.accordian-item {
+    background-color: #323334;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 16px 20px;
+  }
+  
+  .accordian-link {
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1rem;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  
+  .answer {
+    overflow: hidden;
+    max-height: 0;
+    position: relative;
+    text-align: left;
+    transition: max-height 0.7s;
+  }
+  
+  .answer p {
+    padding:1rem 0;
+    font-size: 24px;
+    color: #B3BAC5;
+    line-height: 40px;
+  }
+  
+  .answer.open {
+    max-height: 10rem !important;
+    overflow-y: auto;
+  }
+.ion-md-remove:after{
+    content: "\f068";
+    font-family: "Font Awesome 5 Pro";
+} 
+.accordian-link.open .ion-md-remove::before{
+    display: none;
+} 
+.faq-main{
+    background-color: #242424;
+    padding: 100px 0px
+}
+.faq-inner-wrapper{
+    max-width:1150px;
+    margin: 0 auto;
+    text-align: center;
+}
+.faq-inner-wrapper h2 {
+    font-size: 64px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+@media screen and (max-width:767px) {
+    .our-feature-card {
+        padding: 80px 40px 30px;
+    }
+    .pricing-title {
+        padding: 35px 0px;
+    }
+    .pricing-title h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .pricing-plan-card {
+        padding: 45px 20px;
+        margin-bottom: 30px;
+    }
+
+}
